@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function HomePage() {
   const [count, setCount] = useState(0)
-  const [max] = useState(9999)
+  const [max] = useState(999)
 
   return (
     <div className="home-page">
